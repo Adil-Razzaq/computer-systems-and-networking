@@ -1,0 +1,21 @@
+# C/C++ Compiled Binaries & Executables
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# Build Directories
+build/
+bin/
+.vscode/
+.idea/
+
+# Cisco Packet Tracer Auto-Saves & Logs
+*.bak
+*.pka.bak
+*.pkt.bak
+
+# OS Metadata
+.DS_Store
+Thumbs.db
