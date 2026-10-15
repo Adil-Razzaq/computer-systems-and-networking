@@ -34,10 +34,10 @@ This laboratory demonstrates the direct point-to-point physical and logical conn
 * **Packet Tracer File:** [`topology.pkt`](./topology.pkt)
 
 ### 1. Topology Layout
-![Topology Workspace](./screenshots/topology.png)
+![Topology Workspace](./screenshots/topology.jpeg)
 
 ### 2. GUI Static IP Assignment (PC-A)
-![IP Configuration GUI](./screenshots/ip_config.png)
+![IP Configuration GUI](./screenshots/ip_config.jpeg)
 
 ### 3. ICMP Ping Test (PC-A to PC-B)
-![Ping Proof](./screenshots/ping_proof.png)
+![Ping Proof](./screenshots/ping_proof.jpeg)

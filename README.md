@@ -1,29 +1,32 @@
 # Computer Systems & Networking Portfolio
 
-This repository documents my progression through computer systems, data structures, network security, and low-level software engineering. It contains both core university laboratory coursework and self-directed systems implementation projects.
+Welcome to my central computer science portfolio. This repository documents my academic progression, core laboratory coursework, and self-directed research projects in computer systems, networking, and low-level software engineering.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Organization
 
-### `01-university-labs/`
-Structured academic laboratories covering foundational computer science curriculum:
-* **Semester 03 - Computer Networks (`CS234`):**
-  * [`lab01-two-subnet-router`](./01-university-labs/semester-03-computer-networks/lab01-two-subnet-router/): Inter-subnet routing across two distinct networks via a Cisco 2901 Integrated Services Router with dynamic DHCP configuration.
+The repository is divided into two primary tracks:
 
-### `02-research-projects/`
-Independent, research-focused projects emphasizing performance, concurrency, and low-level system design:
-* **C++ Dynamic Memory & Network Engineering:** Low-level dynamic memory management, pointer arithmetic, and linear queue implementations for packet handling.
+### 1. `01-university-labs/`
+Contains structured coursework organized by academic semester. Each lab directory includes source files/topologies, setup documentation, and execution artifacts:
+* **Semesters 01–02:** Foundational programming and database architectures.
+* **Semesters 03–05:** Core computer networks, data structures, operating systems, and computer architecture.
+* **Semesters 06–08:** Advanced topics including cyber security, distributed systems, and artificial intelligence.
 
----
-
-## ⚙️ Technical Stack
-* **Languages:** C++, C, Assembly (x86/COAL), SQL
-* **Networking & Tools:** Cisco Packet Tracer, Wireshark, CLI / Cisco IOS
-* **Platforms & Version Control:** Git, Linux / POSIX environments
+### 2. `02-research-projects/`
+Focuses on self-directed, research-oriented systems engineering projects. These projects emphasize performance optimization, memory safety, dynamic data structures, and protocol design.
 
 ---
 
-## 👤 Author
-**BSCS Student** — Focus in Computer Systems, Networking, and Systems Programming.  
-*Targeting Graduate Research Programs in Computer Science / Network Engineering.*
+## 🛠️ Core Technologies & Tools
+* **Languages:** C++, C, SQL, Assembly
+* **Networking & Security:** Cisco Packet Tracer, Wireshark, Cisco IOS
+* **Environment & Tools:** Git, Linux / POSIX environments
+
+---
+
+## 👤 About the Author
+* **Degree:** Bachelor of Science in Computer Science (BSCS)
+* **Focus:** Computer Systems, Networking & Low-Level Software Development
+* **Goal:** Graduate Research (Master's) in Computer Science & Network Engineering
