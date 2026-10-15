@@ -31,7 +31,7 @@ This laboratory demonstrates the direct point-to-point physical and logical conn
 
 ## 📸 Verification & Screenshots
 
-* **Packet Tracer File:** [`topology.pkt`](./topology.pkt)
+* **Packet Tracer File:** [`peer-to-peer.pkt`](./peer-to-peer.pkt)
 
 ### 1. Topology Layout
 ![Topology Workspace](./screenshots/topology.JPG)
