@@ -10,7 +10,7 @@ This laboratory demonstrates manual static IPv4 address allocation and Layer-2/L
 | Device Name | Interface | IP Address | Subnet Mask | Default Gateway | Connection Type |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **PC-A** | `FastEthernet0` | `192.168.10.11` | `255.255.255.0` (`/24`) | `0.0.0.0` | Copper Straight-Through / Switch |
-| **PC-B** | `FastEthernet0` | `192.168.10.14` | `255.255.255.0` (`/24`) | `0.0.0.0` | Copper Straight-Through / Switch |
+| **PC-D** | `FastEthernet0` | `192.168.10.14` | `255.255.255.0` (`/24`) | `0.0.0.0` | Copper Straight-Through / Switch |
 
 ---
 
@@ -18,7 +18,7 @@ This laboratory demonstrates manual static IPv4 address allocation and Layer-2/L
 
 1. **Static IP Assignment (GUI):**
    * Configured `PC-A` with IP `192.168.10.11` and Subnet Mask `255.255.255.0`.
-   * Configured `PC-B` with IP `192.168.10.14` and Subnet Mask `255.255.255.0`.
+   * Configured `PC-D` with IP `192.168.10.14` and Subnet Mask `255.255.255.0`.
 
 2. **Network Reachability Test:**
    * Executed ICMP echo request from `PC-A` to `PC-D` (`ping 192.168.1.14`).
