@@ -42,7 +42,7 @@ This laboratory demonstrates a hybrid IPv4 network architecture spanning two int
 * **Packet Tracer File:** [`topology.pkt`](./topology.pkt)
 
 ### 1. Two-Hub Interconnected Topology
-![Dual Hub Topology](./screenshots/topology.PG)
+![Dual Hub Topology](./screenshots/topology.JPG)
 
 ### 2. DHCP Pool Settings (Excluding .1-.10 Static Range)
 ![DHCP Configuration GUI](./screenshots/server_dhcp_config.JPG)
