@@ -9,10 +9,10 @@ This laboratory demonstrates Layer-3 inter-subnet packet forwarding between two 
 
 | Subnet Domain | Device Name | Interface | Allocation Type | IP Address | Subnet Mask | Default Gateway |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Subnet A** | Router0 Interface | `Gi0/0` | Static | `192.168.10.1` | `255.255.255.0` (`/24`) | N/A |
+| **Subnet A** | Router0 Interface | `Gi0/0` | Static | `192.168.20.1` | `255.255.255.0` (`/24`) | N/A |
 | **Subnet A** | Server-A (DHCP) | `Fa0` | Static | `192.168.10.2` | `255.255.255.0` (`/24`) | `192.168.10.1` |
 | **Subnet A** | Host Clients (PC0-2)| `Fa0` | Dynamic (DHCP) | `192.168.10.11+` | `255.255.255.0` (`/24`) | `192.168.10.1` |
-| **Subnet B** | Router0 Interface | `Gi0/1` | Static | `192.168.20.1` | `255.255.255.0` (`/24`) | N/A |
+| **Subnet B** | Router0 Interface | `Gi0/1` | Static | `192.168.10.1` | `255.255.255.0` (`/24`) | N/A |
 | **Subnet B** | Server-B (DHCP) | `Fa0` | Static | `192.168.20.2` | `255.255.255.0` (`/24`) | `192.168.20.1` |
 | **Subnet B** | Host Clients (PC3-5)| `Fa0` | Dynamic (DHCP) | `192.168.20.11+` | `255.255.255.0` (`/24`) | `192.168.20.1` |
 
@@ -21,8 +21,8 @@ This laboratory demonstrates Layer-3 inter-subnet packet forwarding between two 
 ## 🛠️ Implementation Steps
 
 1. **Layer-3 Gateway Configuration:**
-   * Configured `Router0` `Gi0/0` with IP `192.168.10.1` (`255.255.255.0`) as Gateway A.
-   * Configured `Router0` `Gi0/1` with IP `192.168.20.1` (`255.255.255.0`) as Gateway B.
+   * Configured `Router0` `Gi0/0` with IP `192.168.20.1` (`255.255.255.0`) as Gateway A.
+   * Configured `Router0` `Gi0/1` with IP `192.168.10.1` (`255.255.255.0`) as Gateway B.
    * Enabled interface link status (`no shutdown`).
 
 2. **Subnet-Specific DHCP Pool Setup:**
