@@ -37,10 +37,10 @@ This laboratory demonstrates automated IPv4 address allocation across end-hosts 
 * **Packet Tracer File:** [`dhcp-server-configuration.pkt`](./dhcp-server-configuration.pkt)
 
 ### 1. Network Topology
-![Topology Workspace](./screenshots/topology.jpg)
+![Topology Workspace](./screenshots/topology.JPG)
 
 ### 2. DHCP Server GUI Configuration
-![DHCP Server GUI](./screenshots/dhcp_server_config.jpg)
+![DHCP Server GUI](./screenshots/dhcp_server_config.JPG)
 
 ### 3. Client Lease & Ping Verification
-![Ping and IP Renewal Proof](./screenshots/ping_proof.jpg)
+![Ping and IP Renewal Proof](./screenshots/ping_proof.JPG)
